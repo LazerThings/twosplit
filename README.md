@@ -2,6 +2,10 @@
 
 An MCP server that leverages multiple Claude instances to provide enhanced responses. It sends the same prompt to two separate instances of Claude and uses a third instance to combine or select the best elements from both responses.
 
+<a href="https://glama.ai/mcp/servers/@LazerThings/twosplit">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@LazerThings/twosplit/badge" alt="Twosplit Server MCP server" />
+</a>
+
 ## Features
 
 - Supports multiple Claude models:
@@ -80,3 +84,4 @@ To inspect the server's capabilities:
 
 ```bash
 npm run inspector
+```
