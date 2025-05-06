@@ -1,5 +1,7 @@
 # Twosplit MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@LazerThings/twosplit)](https://smithery.ai/server/@LazerThings/twosplit)
+
 An MCP server that leverages multiple Claude instances to provide enhanced responses. It sends the same prompt to two separate instances of Claude and uses a third instance to combine or select the best elements from both responses.
 
 ## Features
@@ -15,6 +17,15 @@ An MCP server that leverages multiple Claude instances to provide enhanced respo
 
 ## Installation
 
+### Installing via Smithery
+
+To install Twosplit for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@LazerThings/twosplit):
+
+```bash
+npx -y @smithery/cli install @LazerThings/twosplit --client claude
+```
+
+### Manual Installation
 1. Clone the repository
 2. Install dependencies:
 ```bash
@@ -80,3 +91,4 @@ To inspect the server's capabilities:
 
 ```bash
 npm run inspector
+```
